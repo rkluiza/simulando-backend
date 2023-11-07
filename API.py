@@ -7,8 +7,8 @@ CORS(app)
 
 #endpoint para obter todos os usuarios existentes
 @app.route("/usuariosExistentes", methods=["GET"])
-def obter_UsusariosExistentes():
-    usuarios = obter_UsusariosExistentes()
+def obter_UsuariosExistentes():
+    usuarios = obterUsuariosExistentes()
     return jsonify(usuarios)
 
 app.run()
